@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="204218" started-at="2022-09-26T05:01:31Z" finished-at="2022-09-26T05:04:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="204218" started-at="2022-09-26T05:01:31Z" finished-at="2022-09-26T05:04:55Z">
+      <class name="com.project.ProGp">
+        <test-method status="PASS" signature="befCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befCls" is-config="true" duration-ms="67033" started-at="2022-09-26T05:01:31Z" finished-at="2022-09-26T05:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befCls -->
+        <test-method status="PASS" signature="befM()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befM" is-config="true" duration-ms="1" started-at="2022-09-26T05:02:38Z" finished-at="2022-09-26T05:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befM -->
+        <test-method status="PASS" signature="ts()[pri:0, instance:com.project.ProGp@71bbf57e]" name="ts" duration-ms="34779" started-at="2022-09-26T05:02:38Z" finished-at="2022-09-26T05:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="afeCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="afeCls" is-config="true" duration-ms="2" started-at="2022-09-26T05:03:13Z" finished-at="2022-09-26T05:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeCls -->
+        <test-method status="PASS" signature="befM()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befM" is-config="true" duration-ms="1" started-at="2022-09-26T05:03:13Z" finished-at="2022-09-26T05:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befM -->
+        <test-method status="PASS" signature="ts1()[pri:0, instance:com.project.ProGp@71bbf57e]" name="ts1" duration-ms="26775" started-at="2022-09-26T05:03:13Z" finished-at="2022-09-26T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts1 -->
+        <test-method status="PASS" signature="afeCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="afeCls" is-config="true" duration-ms="3" started-at="2022-09-26T05:03:40Z" finished-at="2022-09-26T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeCls -->
+        <test-method status="PASS" signature="befM()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befM" is-config="true" duration-ms="5" started-at="2022-09-26T05:03:40Z" finished-at="2022-09-26T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befM -->
+        <test-method status="PASS" signature="ts2()[pri:0, instance:com.project.ProGp@71bbf57e]" name="ts2" duration-ms="42491" started-at="2022-09-26T05:03:40Z" finished-at="2022-09-26T05:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts2 -->
+        <test-method status="PASS" signature="afeCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="afeCls" is-config="true" duration-ms="0" started-at="2022-09-26T05:04:22Z" finished-at="2022-09-26T05:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeCls -->
+        <test-method status="PASS" signature="ts3()[pri:0, instance:com.project.ProGp@71bbf57e]" name="ts3" duration-ms="23721" started-at="2022-09-26T05:04:22Z" finished-at="2022-09-26T05:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts3 -->
+        <test-method status="PASS" signature="befM()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befM" is-config="true" duration-ms="0" started-at="2022-09-26T05:04:22Z" finished-at="2022-09-26T05:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befM -->
+        <test-method status="PASS" signature="afeCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="afeCls" is-config="true" duration-ms="10" started-at="2022-09-26T05:04:46Z" finished-at="2022-09-26T05:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeCls -->
+        <test-method status="PASS" signature="befM()[pri:0, instance:com.project.ProGp@71bbf57e]" name="befM" is-config="true" duration-ms="3" started-at="2022-09-26T05:04:46Z" finished-at="2022-09-26T05:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befM -->
+        <test-method status="FAIL" signature="ts4()[pri:0, instance:com.project.ProGp@71bbf57e]" name="ts4" duration-ms="9131" started-at="2022-09-26T05:04:46Z" finished-at="2022-09-26T05:04:55Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BASIL', ip: '192.168.68.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [348c1ee31e7cd3ac60a676778e72e355, clickElement {id=42444170-2072-49b8-9ad8-de8c2a908a8d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56909/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (348c1ee31e7cd3ac60a676778e72e355)] -> xpath: //I[@class='glyphicon glyphicon-home']]
+Session ID: 348c1ee31e7cd3ac60a676778e72e355]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BASIL', ip: '192.168.68.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [348c1ee31e7cd3ac60a676778e72e355, clickElement {id=42444170-2072-49b8-9ad8-de8c2a908a8d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56909/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (348c1ee31e7cd3ac60a676778e72e355)] -> xpath: //I[@class='glyphicon glyphicon-home']]
+Session ID: 348c1ee31e7cd3ac60a676778e72e355
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.project.BaseCls.btnClk(BaseCls.java:52)
+at com.project.ProGp.ts4(ProGp.java:94)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts4 -->
+        <test-method status="PASS" signature="afeCls()[pri:0, instance:com.project.ProGp@71bbf57e]" name="afeCls" is-config="true" duration-ms="2" started-at="2022-09-26T05:04:55Z" finished-at="2022-09-26T05:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeCls -->
+      </class> <!-- com.project.ProGp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
